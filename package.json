@@ -2,6 +2,7 @@
   "name": "202301-w1ch2-victor-granda-cristina-jimenez",
   "version": "1.0.0",
   "description": "",
+  "default": "index.js",
   "scripts": {
     "prebuild": "rm -rf dist",
     "prebuild:dev": "rm -rf dist",
