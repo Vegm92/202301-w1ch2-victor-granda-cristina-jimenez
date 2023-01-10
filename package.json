@@ -1,0 +1,29 @@
+{
+  "name": "202301-w1ch2-victor-granda-cristina-jimenez",
+  "version": "1.0.0",
+  "description": "",
+  "default": "index.js",
+  "scripts": {
+    "prebuild:dev": "rimraf dist",
+    "prebuild": "rimraf dist",
+    "build:dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vegm92/202301-w1ch2-victor-granda-cristina-jimenez.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vegm92/202301-w1ch2-victor-granda-cristina-jimenez/issues"
+  },
+  "homepage": "https://github.com/Vegm92/202301-w1ch2-victor-granda-cristina-jimenez#readme",
+  "dependencies": {
+    "parcel": "^2.8.2"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2"
+  }
+}
